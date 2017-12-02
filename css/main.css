@@ -124,6 +124,7 @@ nav ul {
     padding: 0;
     display: inline-block;
     float: left;
+    overflow: hidden;
   }
 
   header h1 {
@@ -133,6 +134,14 @@ nav ul {
   nav {
     display: inline-block;
     width: 49%;
+  }
+
+  ul {
+    float: right;
+  }
+
+  a {
+    width: 25%;
   }
 }
 
